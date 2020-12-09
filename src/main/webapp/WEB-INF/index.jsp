@@ -50,7 +50,7 @@
 		
 		<p>Activities:</p>
 		<div id="activity_log" class="border border-dark">
-			
+			<c:forEach items="${log}" var="display"><p class="text-success">${display}</p></c:forEach>
 		</div>
 	</div>
 </body>
